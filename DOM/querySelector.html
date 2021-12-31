@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>this is how query selector works</h1>
+    <h1 class="heading">this is a heading</h1>
+
+    <p>this is a paragraph</p>
+    <p>this is another paragraph</p>
+
+    <script>
+        var h1 = document.querySelector("h1");
+        h1.innerHTML = "This text changed by querySelector Method";
+
+        var h1Collection = document.querySelectorAll("h1");
+        h1Collection[1].innerHTML = "This heading is changed";
+    </script>
+</body>
+</html>

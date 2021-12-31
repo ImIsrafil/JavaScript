@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="myHeading">I love Bangladesh</h1>
+
+
+    <script>
+
+        var myHeading = document.getElementById("myHeading");
+        myHeading.addEventListener("click", myFunction);
+
+        function myFunction() {
+            alert(this.innerHTML);
+        }
+
+        myHeading.addEventListener("mouseover", function () {
+            this.style.color = "red";
+            this.style.fontSize = "50px";
+        })
+
+        myHeading.addEventListener("mouseout", function () {
+            this.style.color = "";
+            this.style.fontSize = "";
+        })
+
+    </script>
+</body>
+</html>
