@@ -14,3 +14,18 @@ console.log(friends);
 console.log(friend1);
 
 console.log(friend2);
+
+const person1 = {
+    name: "Israfil",
+    age: 20,
+    nationality: "Bangali"
+};
+
+const object = {
+    profession: "student",
+    lang: ["Bangla", "English", "hindi"],
+};
+
+const person = {...person1, ...object};
+
+console.log(person);
