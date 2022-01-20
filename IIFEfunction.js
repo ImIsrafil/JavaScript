@@ -22,7 +22,7 @@ console.log("");
 
 // Function Expression
 
-var myFunction = function funcExp() { 
+var myFunction = function funcExp() {
     console.log("Hello this is Israfil");
 }
 
