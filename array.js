@@ -6,7 +6,7 @@ console.log(items);
 console.log(friends);
 console.log(friends[2]); // access an array element by referring to the index number
 
-friends[0] = "Selina"; // This statement changes the value of the first element in cars
+friends[0] = "Selina"; // This statement changes the value of the first element in friends Array
 console.log(friends); // With JavaScript, the full array can be accessed by referring to the array name
 
 
